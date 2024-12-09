@@ -25,6 +25,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
+          user: Dead-By-Midnight
           template: classic
           # base: header, activity, community, repositories, metadata
           base: header
